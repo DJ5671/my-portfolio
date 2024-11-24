@@ -1,0 +1,127 @@
+body {
+  position: relative;
+}
+
+section#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("img/person-working-laptop-desk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  width: 100%;
+  padding: 20%;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(80, 0, 0);
+}
+section#hero-section img {
+  width: 50%;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+section#mission-section img {
+  display: block;
+  width: 60%;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+}
+
+section#skills-section img {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #f2f0ef;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: darkred;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section#projects-section {
+  background-color: #fafafa;
+}
+
+section#mission-section {
+  background-color: #d4d4d4;
+}
+
+section#skills-section {
+  background-color: #fafafa;
+}
+
+section#inspiration-section {
+  background-color: #d4d4d4;
+}
+
+section#contact-section {
+  background-color: #fafafa;
+}
+
+#home-target,
+#projects-section-target,
+#mission-section-target,
+#skills-section-target,
+#inspiration-section-target,
+#contact-section-target {
+  position: relative;
+  top: -100px;
+}
+
+.scroll-top .navbar {
+  background-color: transparent !important;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  background-repeat: none;
+  width: 100%;
+  max-width: 1200px;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+  z-index: 1;
+}
+
+section#footer-section {
+  color: white;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 50px; /* Set footer height */
+  background-color: #212123;
+  padding: 10px;
+}

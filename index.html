@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <title>Diego Riofrio's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body
+    class="scroll-top"
+    data-bs-spy="scroll"
+    data-bs-target=".navbar"
+    data-bs-offset="100"
+  >
+    <!-- TODO: Paste Navbar code and customize links -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#home-target">
+          <i class="bi bi-house-door"></i>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav-collapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#projects-section-target" class="nav-link">Projects</a>
+            <a href="#mission-section-target" class="nav-link">Mission</a>
+            <a href="#skills-section-target" class="nav-link">Skills</a>
+            <a href="#inspiration-section-target" class="nav-link"
+              >Inspiration</a
+            >
+            <a href="#contact-section-target" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section id="hero-section">
+      <div id="home-target"></div>
+      <div class="container">
+        <img
+          src="img/headshot.PNG"
+          class="rounded-circle border border-black border-2"
+          style="--bs-border-opacity: 0.3"
+          alt="Diego J. Riofrio"
+        />
+        <h1 class="display-2">Diego J. Riofrio</h1>
+
+        <br />
+        <h2 class="display-6 fs-5">Bringing Ideas To Reality</h2>
+      </div>
+    </section>
+
+    <section id="projects-section" class="py-5">
+      <div id="projects-section-target"></div>
+      <div class="container">
+        <h2 class="col-12 text-center mb-4">Projects</h2>
+        <div class="row text-center">
+          <!-- Project 1 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <a href="https://vsv7rf.csb.app/">
+              <img
+                src="img/Homes & Villas Hotels.svg"
+                alt="HTML Logo"
+                class="img-fluid mb-3"
+            /></a>
+            <p>PS Marriott Homes and Villas</p>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <a href="https://sr7gpz.csb.app">
+              <img
+                src="img/icons8-memory-game-64.png"
+                alt="CSS Logo"
+                class="img-fluid mb-3"
+                style="max-width: 105px"
+            /></a>
+            <p>Matching Game</p>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <img
+              src="img/bootstrap-4.svg"
+              alt="Bootstrap Logo"
+              class="img-fluid mb-3"
+              style="max-width: 140px"
+            />
+            <p>TBD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission/Meet-me section -->
+    <section id="mission-section" class="py-5">
+      <div id="mission-section-target"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <h2 class="col-12 text-center mb-4">My Mission</h2>
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <img
+              src="img/myMission.jpg"
+              alt="Mission Image"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <p>
+              My mission is to help businesses succeed by delivering
+              high-quality web development solutions that are both innovative
+              and reliable. With a commitment to integrity and discipline, I
+              strive to create websites that not only meet the needs of my
+              clients but exceed their expectations. Whether working with a
+              small business or a larger organization, my goal is to build
+              strong, lasting relationships through professionalism and friendly
+              collaboration.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills-section" class="py-5">
+      <div id="skills-section-target"></div>
+      <div class="container">
+        <h2 class="col-12 text-center mb-4">Skills</h2>
+        <div class="row text-center">
+          <!-- Skill 1 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <img
+              src="img/HTML5_logo_and_wordmark.svg"
+              alt="HTML Logo"
+              class="img-fluid mb-3"
+            />
+            <p>
+              The foundational building block of the web, allowing me to create
+              structured and semantic layouts. My proficiency in HTML enables me
+              to develop accessible and well-organized web pages that
+              effectively convey content to users and search engines alike.
+            </p>
+          </div>
+          <!-- Skill 2 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <img
+              src="img/CSS3_logo_and_wordmark.svg"
+              alt="CSS Logo"
+              class="img-fluid mb-3"
+              style="max-width: 105px"
+            />
+            <p>
+              Enhances the visual presentation of websites by allowing me to
+              control layout, design, and responsiveness. With my expertise in
+              CSS, I can create visually appealing styles that adapt seamlessly
+              across devices, ensuring a consistent user experience.
+            </p>
+          </div>
+          <!-- Skill 3 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <img
+              src="img/bootstrap-4.svg"
+              alt="Bootstrap Logo"
+              class="img-fluid mb-3"
+              style="max-width: 140px"
+            />
+            <p>
+              Bootstrap is a powerful front-end framework that I utilize to
+              streamline the web development process. By leveraging its
+              responsive grid system and pre-designed components, I can
+              efficiently build modern, mobile-first websites that are not only
+              aesthetically pleasing but also functional and user-friendly.
+            </p>
+          </div>
+          <!-- Skill 4 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <img
+              src="img/ISO_C++_Logo.svg"
+              alt="C++ Logo"
+              class="img-fluid mb-3"
+              style="max-width: 125px"
+            />
+            <p>
+              C++ is a versatile programming language that allows me to develop
+              high-performance applications and systems. My understanding of C++
+              equips me with the skills to tackle complex programming challenges
+              and create efficient algorithms, making me well-prepared for
+              projects that require robust software solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inspiration section -->
+    <section id="inspiration-section" class="py-5">
+      <div id="inspiration-section-target"></div>
+      <div class="container">
+        <h2 class="col-12 text-center mb-4">Inspiration</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/maxBMF.webp"
+                class="d-block w-100"
+                alt="Max Holloway KO's Justin Gaethje"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Max Holloway</h5>
+                <p>Believe in yourself even when no one else does.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/santaMonica.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>The Beach</h5>
+                <p>My second home.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/kobe-2001-1.webp" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Kobe Bryant</h5>
+                <p>Are you a different animal and the same beast?</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="py-5">
+      <div id="contact-section-target"></div>
+      <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+      </div>
+      <div class="row text-center">
+        <!-- Social Icon 1 -->
+        <div class="col-12 col-md-4 mb-4">
+          <a
+            href="https://www.linkedin.com/in/diego-riofrio-2770a4323/"
+            class="social-icon"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+        <!-- Social Icon 2 -->
+        <div class="col-12 col-md-4 mb-4">
+          <a href="https://github.com/DJ5671" class="social-icon">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+        <!-- Social Icon 3 -->
+        <div class="col-12 col-md-4 mb-4">
+          <a href="mailto:d.riofrio1998@gmail.com" class="social-icon">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer-section">
+      <p><i class="bi bi-c-circle"> </i>Diego Riofrio 2024</p>
+    </section>
+
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/
+  	-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
